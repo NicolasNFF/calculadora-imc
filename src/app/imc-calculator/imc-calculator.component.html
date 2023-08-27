@@ -1,5 +1,15 @@
+<!DOCTYPE html>
+<html>
+<html>
+<head>
+</head>
+    <body>
+
 <div class="imc-calculator">
   <div class="input-container">
+
+    <h1>Calculadora de IMC</h1>
+
     <label for="peso">Peso (kg):</label>
     <input type="number" id="peso" [(ngModel)]="peso">
   </div>
@@ -7,10 +17,12 @@
     <label for="altura">Altura (cm):</label>
     <input type="number" id="altura" [(ngModel)]="altura">
   </div>
-  <button (click)="calculateIMC()">Calcular</button>
+  <button class= "button1" (click)="calculateIMC()">Calcular</button>
   <div *ngIf="result">
     <p>Seu IMC é: {{ result }}</p>
     <p>Classificação: {{ classification }}</p>
   </div>
 </div>
 
+</body>
+</html>

@@ -1,9 +1,9 @@
 body {
-  height: 0;
+    height: 0;
     margin: 0;
     padding: 0;
-  background-image: url('src/app/imc-calculator/img/fundo1.png');
-    background-size: 50%;
-    background-position: center 10em;
+    background-image: url('src/app/imc-calculator/img/fundo1.png');
+    background-size: cover;
+    background-position: center 0,5em;
 }
 

@@ -1,3 +1,10 @@
 h1 {
   text-align: center;
+
+  background-image: url('./imc-calculator/img/imc.png');
+  background-repeat: no-repeat;
+  background-size: 350px 350px;
+  padding: 600px;
+  background-position: 95% 0;
+
 }
