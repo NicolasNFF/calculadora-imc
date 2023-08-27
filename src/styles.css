@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  height: 0;
+    margin: 0;
+    padding: 0;
+  background-image: url('src/app/imc-calculator/img/fundo1.png');
+    background-size: 50%;
+    background-position: center 10em;
+}
+
